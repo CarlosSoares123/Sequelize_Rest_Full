@@ -64,8 +64,7 @@ export const updateProject = async (req, res) => {
     await project.save()
 
     res.json(project)
-
-    return res.send('Actualizado')
+    
   } catch (error) {
     return res.status(500).json({message: error.message})
   }

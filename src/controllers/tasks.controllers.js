@@ -30,8 +30,8 @@ export const getTask = async (req,res) => {
     const { id } = req.params
 
     const task = await Task.findOne({
-      where: {id},
-      attributes: ['name']
+      where: {id}
+      
     })
 
     res.json(task)
