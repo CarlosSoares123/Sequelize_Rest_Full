@@ -61,5 +61,5 @@ PUT /tasks/:id: Atualize uma tarefa existente.
 
 DELETE /tasks/:id: Exclua uma tarefa existente.
 
-🤝 Contribua
+## 🤝 Contribua
 Seja você um iniciante ou um especialista, todos são bem-vindos para melhorar este projeto. Abra issues, envie pull requests e junte-se à comunidade de desenvolvedores.
